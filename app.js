@@ -7,5 +7,9 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 */
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        message: 'ciao sono un messaggio',
+        image: 'https://picsum.photos/200/300'
+    }
 })
